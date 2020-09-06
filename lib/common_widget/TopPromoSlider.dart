@@ -12,7 +12,7 @@ class TopPromoSlider extends StatelessWidget {
           child: Carousel(
             images: [
               Image.asset(
-                "assets/images/promotion__one.png",
+                "assets/images/promotion__one.jpg",
                 height: 150,
                 width: double.infinity,
               ),

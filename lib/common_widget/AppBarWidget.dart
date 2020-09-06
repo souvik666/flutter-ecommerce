@@ -7,7 +7,7 @@ Widget appBarWidget(context) {
     elevation: 0.0,
     centerTitle: true,
     title: Image.asset(
-      "assets/images/ic_app_icon.png",
+      "assets/images/ic_app_icon.jpg",
       width: 80,
       height: 40,
     ),

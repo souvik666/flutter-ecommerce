@@ -1,6 +1,9 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_ecommerce_app/components/AppSingUp.dart';
+import 'otp.dart';
 
 class AppSignIn extends StatefulWidget {
   @override
@@ -45,7 +48,7 @@ class _AppSignInState extends State<AppSignIn> {
                     width: 130,
                     height: 130,
                     alignment: Alignment.center,
-                    child: Image.asset("assets/images/ic_app_icon.png"),
+                    child: Image.asset("assets/images/ic_app_icon.jpg"),
                   ),
                   SizedBox(
                     height: 15,
@@ -130,7 +133,8 @@ class _AppSignInState extends State<AppSignIn> {
                     width: double.infinity,
                     child: RaisedButton(
                       padding: EdgeInsets.all(17.0),
-                      onPressed: () {},
+        //todo
+                     onPressed: Get.to(NextScreen());
                       child: Text(
                         "Sign In",
                         style: TextStyle(
@@ -148,9 +152,10 @@ class _AppSignInState extends State<AppSignIn> {
                     decoration: BoxDecoration(
                         shape: BoxShape.circle, color: Color(0xFFF2F3F7)),
                   ),
+                 
                   SizedBox(
                     height: 10,
-                  ),
+                   )),
                 ],
               ),
             ),

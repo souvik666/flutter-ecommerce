@@ -49,26 +49,26 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Color(0xFFf5f6f7),
             ),
           ),
-          Expanded(
-            child: TabBarView(
-              children: [
-                Container(
-                  color: Colors.white24,
-                  child: CategoryPage(slug: 'categories/'),
-                ),
-                Container(
-                  color: Colors.white24,
-                  child: BrandHomePage(slug: 'brands/?limit=20&page=1'),
-                ),
-                Container(
-                  color: Colors.white24,
-                  child: ShopHomePage(
-                    slug: 'custom/shops/?page=1&limit=15',
-                  ),
-                ) // class name
-              ],
-            ),
-          ),
+          //Expanded(
+          // child: TabBarView(
+          //  children: [
+          //  Container(
+          //   color: Colors.white24,
+          //   child: CategoryPage(slug: 'categories/'),
+          // ),
+          //Container(
+          //color: Colors.white24,
+          //child: BrandHomePage(slug: 'brands/?limit=20&page=1'),
+          // ),
+          //Container(
+          //color: Colors.white24,
+          //child: ShopHomePage(
+          //slug: 'custom/shops/?page=1&limit=15',
+          //  ),
+          //     ) // class name
+          //  ],
+          // ),
+          //    ),
         ],
       ),
     );
